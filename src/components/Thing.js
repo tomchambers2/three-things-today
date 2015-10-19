@@ -9,12 +9,6 @@ require('../styles/thing.css')
 var ThreeThingsTodayApp = React.createClass({
 	mixins: [LocalStorageMixin],
 
-	updateText: function(event) {
-		this.setState({
-			thing: event.target.value
-		})
-	},
-
 	getInitialState: function() {
 		return {
 			thing: null
@@ -24,11 +18,11 @@ var ThreeThingsTodayApp = React.createClass({
 	render: function() {
 		var checkbox;
 
-		if (this.state.thing) {
+		if (this.props.text) {
 			checkbox = (<div className="checkbox-container">
 					<Checkbox
 						localStorageKey={this.props.localStorageKey}
-						onChange={this.props.onChange}
+						onChange={this.props.onComplete}
 						checked={this.props.completed} />
 			</div>)
 		}
@@ -38,11 +32,11 @@ var ThreeThingsTodayApp = React.createClass({
 				<div className="input-container">
 					<input
 						type="text"
-						placeholder="to do"
+						placeholder={this.props.placeholder}
 						localStorageKey={this.props.id}
 						className={this.props.completed && 'thing-completed'}
-						value={this.state.thing}
-						onChange={this.updateText} />
+						value={this.props.text}
+						onChange={this.props.onChange} />
 				</div>
 				{checkbox}
 			</div>
