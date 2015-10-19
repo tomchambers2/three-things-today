@@ -1,0 +1,173 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/tomchambers/.nvm/v0.10.36/bin/node',
+1 verbose cli   '/Users/tomchambers/.nvm/v0.10.36/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-localstorage' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 warn package.json react-addons-css-transition-group@0.14.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'react-localstorage', null ]
+7 verbose cache add name=undefined spec="react-localstorage" args=["react-localstorage",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'react-localstorage',
+8 verbose parsed url   path: 'react-localstorage',
+8 verbose parsed url   href: 'react-localstorage' }
+9 silly lockFile fa6cc2aa-react-localstorage react-localstorage
+10 verbose lock react-localstorage /Users/tomchambers/.npm/fa6cc2aa-react-localstorage.lock
+11 silly lockFile fa6cc2aa-react-localstorage react-localstorage
+12 silly lockFile fa6cc2aa-react-localstorage react-localstorage
+13 verbose addNamed [ 'react-localstorage', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile c463025d-react-localstorage react-localstorage@
+16 verbose lock react-localstorage@ /Users/tomchambers/.npm/c463025d-react-localstorage.lock
+17 silly addNameRange { name: 'react-localstorage', range: '*', hasData: false }
+18 verbose request where is /react-localstorage
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 50ebf2284e586452
+21 verbose url raw /react-localstorage
+22 verbose url resolving [ 'https://registry.npmjs.org/', './react-localstorage' ]
+23 verbose url resolved https://registry.npmjs.org/react-localstorage
+24 verbose request where is https://registry.npmjs.org/react-localstorage
+25 info trying registry request attempt 1 at 21:40:31
+26 verbose etag "6W6TQSC62U3W39ZK3KXZ0EN0U"
+27 http GET https://registry.npmjs.org/react-localstorage
+28 http 304 https://registry.npmjs.org/react-localstorage
+29 silly registry.get cb [ 304,
+29 silly registry.get   { date: 'Mon, 19 Oct 2015 20:40:31 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     etag: '"6W6TQSC62U3W39ZK3KXZ0EN0U"',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'keep-alive',
+29 silly registry.get     'x-served-by': 'cache-lcy1130-LCY',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1445287231.876652,VS0,VE695',
+29 silly registry.get     vary: 'Accept' } ]
+30 verbose etag https://registry.npmjs.org/react-localstorage from cache
+31 silly addNameRange number 2 { name: 'react-localstorage', range: '*', hasData: true }
+32 silly addNameRange versions [ 'react-localstorage',
+32 silly addNameRange   [ '0.0.1',
+32 silly addNameRange     '0.1.0',
+32 silly addNameRange     '0.1.1',
+32 silly addNameRange     '0.2.0',
+32 silly addNameRange     '0.2.1',
+32 silly addNameRange     '0.2.2',
+32 silly addNameRange     '0.2.3',
+32 silly addNameRange     '0.2.4',
+32 silly addNameRange     '0.2.5',
+32 silly addNameRange     '0.2.6',
+32 silly addNameRange     '0.2.7',
+32 silly addNameRange     '0.2.8' ] ]
+33 verbose addNamed [ 'react-localstorage', '0.2.8' ]
+34 verbose addNamed [ '0.2.8', '0.2.8' ]
+35 silly lockFile 97823a73-react-localstorage-0-2-8 react-localstorage@0.2.8
+36 verbose lock react-localstorage@0.2.8 /Users/tomchambers/.npm/97823a73-react-localstorage-0-2-8.lock
+37 silly lockFile 97823a73-react-localstorage-0-2-8 react-localstorage@0.2.8
+38 silly lockFile 97823a73-react-localstorage-0-2-8 react-localstorage@0.2.8
+39 silly lockFile c463025d-react-localstorage react-localstorage@
+40 silly lockFile c463025d-react-localstorage react-localstorage@
+41 silly resolved [ { name: 'react-localstorage',
+41 silly resolved     version: '0.2.8',
+41 silly resolved     description: 'A mixin for automatically synchronizing a component\'s state with localStorage.',
+41 silly resolved     main: 'react-localstorage.js',
+41 silly resolved     scripts:
+41 silly resolved      { test: './node_modules/karma/bin/karma start',
+41 silly resolved        lint: 'jsxhint .' },
+41 silly resolved     repository:
+41 silly resolved      { type: 'git',
+41 silly resolved        url: 'git://github.com/STRML/react-localstorage.git' },
+41 silly resolved     keywords: [ 'react', 'localstorage' ],
+41 silly resolved     author:
+41 silly resolved      { name: 'Samuel Reed',
+41 silly resolved        email: 'sam@tixelated.com',
+41 silly resolved        url: 'http://strml.net/' },
+41 silly resolved     license: 'MIT',
+41 silly resolved     bugs: { url: 'https://github.com/STRML/react-localstorage/issues' },
+41 silly resolved     homepage: 'https://github.com/STRML/react-localstorage',
+41 silly resolved     devDependencies:
+41 silly resolved      { envify: '~1.2.1',
+41 silly resolved        'jasmine-core': '^2.1.3',
+41 silly resolved        jsxhint: '^0.9.0',
+41 silly resolved        karma: '^0.12.28',
+41 silly resolved        'karma-browserify': '^1.0.1',
+41 silly resolved        'karma-chrome-launcher': '^0.1.7',
+41 silly resolved        'karma-jasmine': '^0.3.2',
+41 silly resolved        'precommit-hook': '^1.0.7',
+41 silly resolved        react: '^0.12.1',
+41 silly resolved        reactify: '^0.17.1' },
+41 silly resolved     publishConfig: { registry: 'https://registry.npmjs.org' },
+41 silly resolved     gitHead: '96e6ff6ee33b11f02d1396cfb12a181b1a9dfb32',
+41 silly resolved     _id: 'react-localstorage@0.2.8',
+41 silly resolved     _shasum: '03636a60fc743cc35a6c0d1bbc97be3c27fdef07',
+41 silly resolved     _from: 'react-localstorage@',
+41 silly resolved     _npmVersion: '2.13.2',
+41 silly resolved     _nodeVersion: '2.5.0',
+41 silly resolved     _npmUser: { name: 'strml', email: 'samuel.trace.reed@gmail.com' },
+41 silly resolved     maintainers: [ [Object] ],
+41 silly resolved     dist:
+41 silly resolved      { shasum: '03636a60fc743cc35a6c0d1bbc97be3c27fdef07',
+41 silly resolved        tarball: 'http://registry.npmjs.org/react-localstorage/-/react-localstorage-0.2.8.tgz' },
+41 silly resolved     directories: {},
+41 silly resolved     _resolved: 'https://registry.npmjs.org/react-localstorage/-/react-localstorage-0.2.8.tgz',
+41 silly resolved     readme: 'ERROR: No README data found!' } ]
+42 info install react-localstorage@0.2.8 into /Users/tomchambers/projects/three-things-today
+43 info installOne react-localstorage@0.2.8
+44 verbose node_modules/react-localstorage unbuild
+45 info preuninstall react-localstorage@0.2.8
+46 info uninstall react-localstorage@0.2.8
+47 verbose true,/Users/tomchambers/projects/three-things-today/node_modules,/Users/tomchambers/projects/three-things-today/node_modules unbuild react-localstorage@0.2.8
+48 info postuninstall react-localstorage@0.2.8
+49 verbose tar unpack /Users/tomchambers/.npm/react-localstorage/0.2.8/package.tgz
+50 silly lockFile 4c20e480--node-modules-react-localstorage tar:///Users/tomchambers/projects/three-things-today/node_modules/react-localstorage
+51 verbose lock tar:///Users/tomchambers/projects/three-things-today/node_modules/react-localstorage /Users/tomchambers/.npm/4c20e480--node-modules-react-localstorage.lock
+52 silly lockFile 0598a993-t-localstorage-0-2-8-package-tgz tar:///Users/tomchambers/.npm/react-localstorage/0.2.8/package.tgz
+53 verbose lock tar:///Users/tomchambers/.npm/react-localstorage/0.2.8/package.tgz /Users/tomchambers/.npm/0598a993-t-localstorage-0-2-8-package-tgz.lock
+54 silly gunzTarPerm modes [ '755', '644' ]
+55 silly gunzTarPerm extractEntry package.json
+56 silly gunzTarPerm extractEntry .npmignore
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry karma.conf.js
+59 silly gunzTarPerm extractEntry react-localstorage.js
+60 silly gunzTarPerm extractEntry lib/warning.js
+61 silly gunzTarPerm extractEntry .jshintignore
+62 silly gunzTarPerm extractEntry .jshintrc
+63 silly gunzTarPerm extractEntry react-localstorage.spec.jsx
+64 silly lockFile 4c20e480--node-modules-react-localstorage tar:///Users/tomchambers/projects/three-things-today/node_modules/react-localstorage
+65 silly lockFile 4c20e480--node-modules-react-localstorage tar:///Users/tomchambers/projects/three-things-today/node_modules/react-localstorage
+66 silly lockFile 0598a993-t-localstorage-0-2-8-package-tgz tar:///Users/tomchambers/.npm/react-localstorage/0.2.8/package.tgz
+67 silly lockFile 0598a993-t-localstorage-0-2-8-package-tgz tar:///Users/tomchambers/.npm/react-localstorage/0.2.8/package.tgz
+68 info preinstall react-localstorage@0.2.8
+69 verbose readDependencies using package.json deps
+70 verbose readDependencies using package.json deps
+71 silly resolved []
+72 verbose about to build /Users/tomchambers/projects/three-things-today/node_modules/react-localstorage
+73 info build /Users/tomchambers/projects/three-things-today/node_modules/react-localstorage
+74 verbose linkStuff [ false,
+74 verbose linkStuff   false,
+74 verbose linkStuff   false,
+74 verbose linkStuff   '/Users/tomchambers/projects/three-things-today/node_modules' ]
+75 info linkStuff react-localstorage@0.2.8
+76 verbose linkBins react-localstorage@0.2.8
+77 verbose linkMans react-localstorage@0.2.8
+78 verbose rebuildBundles react-localstorage@0.2.8
+79 info install react-localstorage@0.2.8
+80 info postinstall react-localstorage@0.2.8
+81 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+81 error peerinvalid Peer react-addons-css-transition-group@0.14.0 wants react@^0.14.0
+82 error System Darwin 15.0.0
+83 error command "/Users/tomchambers/.nvm/v0.10.36/bin/node" "/Users/tomchambers/.nvm/v0.10.36/bin/npm" "install" "react-localstorage"
+84 error cwd /Users/tomchambers/projects/three-things-today
+85 error node -v v0.10.36
+86 error npm -v 1.4.28
+87 error code EPEERINVALID
+88 verbose exit [ 1, true ]

@@ -1,0 +1,37 @@
+/* main */
+
+html, body {
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 30px;
+  margin: 0;
+}
+
+#content {
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.top {
+  height: 105px;
+}
+
+.bottom {
+  height: calc(100% - 105px);
+}
+
+.main img {
+  width: 103px;
+  height: 89px;
+  margin-bottom: 10px;
+  text-align: center;
+}
